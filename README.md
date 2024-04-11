@@ -55,7 +55,39 @@ _This is just my take. Have a suggestion? Open an issue!_
 
 ### Development tools
 
-TODO
+One great thing about Rust is that it is easy to use without an IDE. The
+tooling provided with the language works out-of-the-box and enables you to be
+productive quickly.
+
+The two main tools that come with Rust are
+[`rustup`](https://rust-lang.github.io/rustup/) and
+[`cargo`](https://doc.rust-lang.org/cargo/). `rustup` manages your Rust
+toolchain and versions, plus many other tools. `cargo` is Rust's build system,
+package manager, and a simple interface to all sorts of great features and
+tools. It's worth taking a look at the [cargo
+book](https://doc.rust-lang.org/cargo/), but also note that cargo can be
+extended via a wide range of
+[plugins](https://crates.io/categories/development-tools::cargo-plugins) and
+stand-alone tools you can install via `cargo install <tool>`. Building,
+checking, testing, benchmarking, linting, formatting, dependency analysis,
+auditing, fuzzing, and more all happen through simple `cargo` commands.
+
+The most common IDEs/editors for Rust are VSCode, vi/vim/neovim, or a JetBrains
+IDE (Rust Rover or another IDE with a Rust plugin).
+[rust-analyzer](https://rust-analyzer.github.io/) is the official Rust language
+server and is easy to install.
+
+Rust has a default formatter,
+[`rustfmt`](https://github.com/rust-lang/rustfmt). Unlike other languages,
+there isn't a popular alternative - it is widely used and generally considered
+"the" formatter. `rustfmt` runs on the entire project via the `cargo fmt`
+command, but you can configure your editor to run it on the current file only.
+`rustfmt` is conveniently installed and updated automatically via `rustup`.
+
+[`clippy`](https://doc.rust-lang.org/nightly/clippy/) is Rust's default linter
+and is also automatically managed by `rustup`. It has preset levels to choose
+from and is highly customizable. Using `clippy` can be a great way to learn how
+to write idiomatic Rust code!
 
 ### Miscellaneous
 
