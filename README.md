@@ -41,17 +41,18 @@ _This is just my take. Have a suggestion? Open an issue!_
 1. [Rust book](https://doc.rust-lang.org/book/) [comprehensive]
 2. [Rust by example](https://doc.rust-lang.org/rust-by-example/)
    [comprehensive]
-4. [Interactive Rust book](https://rust-book.cs.brown.edu/) [comprehensive,
+3. [Interactive Rust book](https://rust-book.cs.brown.edu/) [comprehensive,
    interactive]
-3. [Rustlings](https://github.com/rust-lang/rustlings) [interactive]
-5. [Video Rust
+4. [Rustlings](https://github.com/rust-lang/rustlings) [interactive]
+5. [Rust development classes](https://rust-classes.com/preface)
+6. [Video Rust
    book](https://www.youtube.com/watch?v=OX9HJsJUDxA&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8)
    [comprehensive]
-6. [Rust
+7. [Rust
    Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/intro.html)
-7. [Learning Rust with far too many linked
+8. [Learning Rust with far too many linked
    lists](https://rust-unofficial.github.io/too-many-lists/)
-8. [Command Line Apps in Rust](https://rust-cli.github.io/book/index.html)
+9. [Command Line Apps in Rust](https://rust-cli.github.io/book/index.html)
 
 ### Development tools
 
@@ -96,7 +97,7 @@ to write idiomatic Rust code!
 * Find Rust communities on discord, redit, meetup,
   the-platform-formerly-known-as-twitter, etc. - lots of resources
 
-## Intermediate
+## Intermediate/advanced
 
 These resources aren't in a particular order, but delve into the more advanced
 features or aspects of Rust.
@@ -109,4 +110,5 @@ features or aspects of Rust.
   RFCs; useful for better understanding specific features and design decisions
 * [Jon Gjengset's channel](https://www.youtube.com/@jonhoo)
 * [Rust for Rustaceans](https://nostarch.com/rust-rustaceans)
+* [Rust atomics and locks](https://marabos.nl/atomics/) - Low-level concurrency in Rust
 * [withoutboats blog](https://without.boats/)
