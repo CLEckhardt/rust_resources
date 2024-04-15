@@ -50,7 +50,7 @@ _This is just my take. Have a suggestion? Open an issue!_
    [comprehensive]
 7. [Rust
    Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/intro.html)
-8. [Learning Rust with far too many linked
+8. [Learning Rust with entirely too many linked
    lists](https://rust-unofficial.github.io/too-many-lists/)
 9. [Command Line Apps in Rust](https://rust-cli.github.io/book/index.html)
 
